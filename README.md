@@ -1,4 +1,4 @@
-# REST-and-GRAPHQL
+# REST-and-GraphQL
 REST(without DRF) and GraphQL
 
 >I've built RESTful API without using DRF, it's based on pure Django and at the same time in another app I've built GraphQL endpoint.
