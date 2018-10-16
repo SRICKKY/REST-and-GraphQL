@@ -46,7 +46,7 @@ def add_link(request):
 
 @csrf_exempt
 def delete_link(request, id):
-	if request.method == 'POST':
+	if request.method == 'DELETE':
 		
 		try:
 			Link.objects.filter(id=id).delete()
